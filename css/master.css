@@ -164,16 +164,30 @@ html, body {
 .grid-container .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 100px;
   height: 100%;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 .grid-container .grid__section {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #4287f5;
+  line-height: 1.3em;
 }
 .grid-container .grid__section i {
-  color: #4287f5;
-  font-size: 5em;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+.grid-container .grid__section h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.grid-container .grid__section p {
+  color: #000;
+  text-align: left;
 }
 
 .kenteken-container {
