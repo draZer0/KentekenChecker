@@ -57,8 +57,13 @@ table {
   background-color: yellow;
 }
 
-.kenteken-container {
-  display: none;
+.kentekenCheck-container {
+  height: 40vh;
+  background-image: url("../img/kenteken.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=master.css.map */
