@@ -24,6 +24,10 @@
       width: 15vw;
       height: 20vh;
 
+      img {
+        max-width: 250px;
+      }
+
       input {
         font-family: 'kenteken', Fallback, sans-serif;
         font-size: 2em;
@@ -48,16 +52,8 @@
         font-size: 1.25em;
         line-height: 1.65em;
 
-        i {
-          color: rgba(24, 196, 107, 1);
-        }
-
-        span {
-          color: rgba(66, 135, 245, 1)
-        }
-
-        h1 {
-          color: red;
+        i, span {
+          color: rgba(66, 135, 245, 1);
         }
 
         &.--title {

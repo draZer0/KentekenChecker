@@ -83,6 +83,9 @@ html, body {
   width: 15vw;
   height: 20vh;
 }
+.kentekenCheck-container .kentekenCheck__checker img {
+  max-width: 250px;
+}
 .kentekenCheck-container .kentekenCheck__checker input {
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
@@ -104,14 +107,8 @@ html, body {
   font-size: 1.25em;
   line-height: 1.65em;
 }
-.kentekenCheck-container .kentekenCheck__info__mark i {
-  color: #18c46b;
-}
-.kentekenCheck-container .kentekenCheck__info__mark span {
+.kentekenCheck-container .kentekenCheck__info__mark i, .kentekenCheck-container .kentekenCheck__info__mark span {
   color: #4287f5;
-}
-.kentekenCheck-container .kentekenCheck__info__mark h1 {
-  color: red;
 }
 .kentekenCheck-container .kentekenCheck__info__mark.--title {
   font-size: 1.8em;
