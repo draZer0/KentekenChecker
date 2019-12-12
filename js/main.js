@@ -28,6 +28,7 @@ window.onload = () => {
   }
 
   input.onkeyup = (event) => {
+    input.value = input.value.toUpperCase(); 
     if (event.keyCode === 13) {
       event.preventDefault();
       button.click();
