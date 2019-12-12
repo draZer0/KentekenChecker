@@ -122,6 +122,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
+
+    &__section {
+      color: #777;
+      text-align: center;
+    }
   }
 }

@@ -170,7 +170,12 @@ html, body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 100%;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+.footer-container .footer__section {
+  color: #777;
+  text-align: center;
 }
 
 /*# sourceMappingURL=master.css.map */
