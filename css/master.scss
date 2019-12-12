@@ -119,6 +119,11 @@
 
     &__section {
       text-align: center;
+
+      i {
+        color: rgba(66, 135, 245, 1);
+        font-size: 5em;
+      }
     }
   }
 }

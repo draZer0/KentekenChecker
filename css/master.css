@@ -171,6 +171,10 @@ html, body {
 .grid-container .grid__section {
   text-align: center;
 }
+.grid-container .grid__section i {
+  color: #4287f5;
+  font-size: 5em;
+}
 
 .kenteken-container {
   background-color: #eee;
