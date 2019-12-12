@@ -66,26 +66,38 @@ html, body {
   background-color: yellow;
 }
 
-.kentekenCheck-container .kentekenCheck {
+.kentekenCheck-container {
   background-image: url("../img/kenteken.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: yellow;
   height: 40vh;
+}
+.kentekenCheck-container .kentekenCheck {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .kentekenCheck-container .kentekenCheck__checker {
   background-color: #fff;
-  width: 40vw;
+  width: 20vw;
   height: 10vh;
 }
 .kentekenCheck-container .kentekenCheck__checker input {
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
   width: 200px;
+  background-color: yellow;
+}
+.kentekenCheck-container .kentekenCheck__checker button {
+  font-size: 2em;
+}
+.kentekenCheck-container .kentekenCheck__info {
+  background-color: #fff;
+  width: 10vw;
+  height: 10vh;
 }
 
 /*# sourceMappingURL=master.css.map */
