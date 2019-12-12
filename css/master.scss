@@ -145,7 +145,7 @@
 
 // DEBUG:
 .kenteken-container {
-  // display: none;
+  display: none;
   background-color: #eee;
   height: 20vh;
 }
@@ -157,6 +157,16 @@ footer {
   p {
     text-align: center;
     font-size: 0.8em;
-    color: #eee;
+    color: #fff;
+  }
+
+  a {
+    color: rgba(66, 135, 245, 1);
+    font-weight: bold;
+    transition: color .1s ease-in;
+
+    &:hover {
+      color: rgba(51, 113, 212, 1);
+    }
   }
 }

@@ -54,6 +54,7 @@ table {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 html, body {
@@ -190,6 +191,7 @@ html, body {
 }
 
 .kenteken-container {
+  display: none;
   background-color: #eee;
   height: 20vh;
 }
@@ -201,7 +203,15 @@ footer {
 footer p {
   text-align: center;
   font-size: 0.8em;
-  color: #eee;
+  color: #fff;
+}
+footer a {
+  color: #4287f5;
+  font-weight: bold;
+  transition: color 0.1s ease-in;
+}
+footer a:hover {
+  color: #3371d4;
 }
 
 /*# sourceMappingURL=master.css.map */
