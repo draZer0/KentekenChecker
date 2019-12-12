@@ -61,17 +61,12 @@ html, body {
   font-family: "/assets/font/kenteken";
   src: url("kenteken.ttf");
 }
-.header-container {
-  height: 6vh;
-  background-color: yellow;
-}
-
 .kentekenCheck-container {
   background-image: url("../img/kenteken.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: yellow;
+  background-color: grey;
   height: 40vh;
 }
 .kentekenCheck-container .kentekenCheck {
@@ -107,6 +102,10 @@ html, body {
 }
 .kentekenCheck-container .kentekenCheck__info__mark.--title {
   font-weight: bold;
+}
+
+.kenteken-container {
+  background-color: #eee;
 }
 
 /*# sourceMappingURL=master.css.map */
