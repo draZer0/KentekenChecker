@@ -76,27 +76,39 @@ html, body {
   height: 100%;
 }
 .kentekenCheck-container .kentekenCheck__checker {
-  border-radius: 25px 0px 0px 0px;
+  border-radius: 0px 0px 25px 0px;
   padding: 25px;
   background-color: white;
   border-bottom: 10px solid #4287f5;
   width: 15vw;
   height: 20vh;
 }
-.kentekenCheck-container .kentekenCheck__checker img {
-  max-width: 250px;
-}
 .kentekenCheck-container .kentekenCheck__checker input {
+  color: #000;
+  background-color: #FBBC01;
+  background-image: url("assets/svg/license_plate.svg");
+  background-repeat: no-repeat;
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
+  line-height: 110px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 25px;
   width: 10vw;
-  background-color: yellow;
+  height: 6vh;
+  border: 3px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.kentekenCheck-container .kentekenCheck__checker input::placeholder {
+  color: #000;
 }
 .kentekenCheck-container .kentekenCheck__checker button {
   font-size: 2em;
 }
 .kentekenCheck-container .kentekenCheck__info {
-  border-radius: 0px 0px 25px 0px;
+  border-radius: 25px 0px 0px 0px;
   padding: 25px;
   background-color: white;
   border-bottom: 10px solid #4287f5;
