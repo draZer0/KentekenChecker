@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 .header-container {
   height: 6vh;
   background-color: yellow;
