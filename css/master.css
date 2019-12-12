@@ -67,7 +67,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: grey;
-  height: 40vh;
+  height: 50vh;
 }
 .kentekenCheck-container .kentekenCheck {
   display: flex;
@@ -76,31 +76,45 @@ html, body {
   height: 100%;
 }
 .kentekenCheck-container .kentekenCheck__checker {
-  background-color: #fff;
-  width: 20vw;
-  height: 10vh;
+  border-radius: 25px 0px 0px 0px;
+  padding: 25px;
+  background-color: white;
+  border-bottom: 10px solid #4287f5;
+  width: 15vw;
+  height: 20vh;
 }
 .kentekenCheck-container .kentekenCheck__checker input {
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
-  width: 200px;
+  width: 10vw;
   background-color: yellow;
 }
 .kentekenCheck-container .kentekenCheck__checker button {
   font-size: 2em;
 }
 .kentekenCheck-container .kentekenCheck__info {
-  background-color: #fff;
-  width: 10vw;
-  height: 10vh;
+  border-radius: 0px 0px 25px 0px;
+  padding: 25px;
+  background-color: white;
+  border-bottom: 10px solid #4287f5;
+  width: 16vw;
+  height: 20vh;
+}
+.kentekenCheck-container .kentekenCheck__info__mark {
+  font-size: 1.25em;
+  line-height: 1.65em;
 }
 .kentekenCheck-container .kentekenCheck__info__mark i {
-  color: green;
+  color: #18c46b;
+}
+.kentekenCheck-container .kentekenCheck__info__mark span {
+  color: #4287f5;
 }
 .kentekenCheck-container .kentekenCheck__info__mark h1 {
   color: red;
 }
 .kentekenCheck-container .kentekenCheck__info__mark.--title {
+  font-size: 1.8em;
   font-weight: bold;
 }
 
