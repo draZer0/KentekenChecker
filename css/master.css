@@ -157,25 +157,35 @@ html, body {
   font-weight: bold;
 }
 
+.grid-container {
+  background-color: #fff;
+  height: 20vh;
+}
+.grid-container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+.grid-container .grid__section {
+  color: #777;
+  text-align: center;
+}
+
 .kenteken-container {
   background-color: #eee;
   height: 20vh;
 }
 
-.footer-container {
+footer {
   background-color: #222;
-  height: 20vh;
+  padding: 25px 0px 25px 0px;
 }
-.footer-container .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 100%;
-  width: 60%;
-  margin: 0 auto;
-}
-.footer-container .footer__section {
-  color: #777;
+footer p {
   text-align: center;
+  font-size: 0.8em;
+  color: #eee;
 }
 
 /*# sourceMappingURL=master.css.map */

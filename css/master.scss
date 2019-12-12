@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    // background-color: rgba(52, 134, 235, 0.7);
 
     &__checker {
       border-radius: 0px 0px 25px 0px;
@@ -107,6 +106,24 @@
   }
 }
 
+.grid-container {
+  background-color: #fff;
+  height: 20vh;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+
+    &__section {
+      color: #777;
+      text-align: center;
+    }
+  }
+}
+
 // DEBUG:
 .kenteken-container {
   // display: none;
@@ -114,20 +131,13 @@
   height: 20vh;
 }
 
-.footer-container {
+footer {
   background-color: #222;
-  height: 20vh;
+  padding: 25px 0px 25px 0px;
 
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 100%;
-    width: 60%;
-    margin: 0 auto;
-
-    &__section {
-      color: #777;
-      text-align: center;
-    }
+  p {
+    text-align: center;
+    font-size: 0.8em;
+    color: #eee;
   }
 }
