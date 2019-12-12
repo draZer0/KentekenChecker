@@ -160,6 +160,7 @@ html, body {
 .grid-container {
   background-color: #fff;
   height: 20vh;
+  margin: 40px;
 }
 .grid-container .grid {
   display: grid;
@@ -171,8 +172,6 @@ html, body {
 }
 .grid-container .grid__section {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
   color: #4287f5;
   line-height: 1.3em;
 }
