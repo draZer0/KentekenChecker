@@ -61,13 +61,21 @@ html, body {
   background-color: yellow;
 }
 
-.kentekenCheck-container {
-  height: 40vh;
+.kentekenCheck-container .kentekenCheck {
   background-image: url("../img/kenteken.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: yellow;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kentekenCheck-container .kentekenCheck__checker {
+  background-color: #fff;
+  width: 40vw;
+  height: 10vh;
 }
 
 /*# sourceMappingURL=master.css.map */

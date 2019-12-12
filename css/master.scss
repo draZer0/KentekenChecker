@@ -7,13 +7,25 @@
 }
 
 .kentekenCheck-container {
-  height: 40vh;
-  background-image: url('../img/kenteken.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: yellow;
-} 
+
+  .kentekenCheck {
+    background-image: url('../img/kenteken.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: yellow;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__checker {
+      background-color: #fff;
+      width: 40vw;
+      height: 10vh;
+    }
+  }
+}
 
 
 
