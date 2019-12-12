@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 

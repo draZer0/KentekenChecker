@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -84,6 +85,7 @@ html, body {
 .kentekenCheck-container .kentekenCheck__checker input {
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
+  width: 200px;
 }
 
 /*# sourceMappingURL=master.css.map */
