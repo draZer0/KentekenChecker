@@ -56,6 +56,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "/assets/font/kenteken";
+  src: url("kenteken.ttf");
+}
 .header-container {
   height: 6vh;
   background-color: yellow;
@@ -76,6 +80,10 @@ html, body {
   background-color: #fff;
   width: 40vw;
   height: 10vh;
+}
+.kentekenCheck-container .kentekenCheck__checker input {
+  font-family: "kenteken", Fallback, sans-serif;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=master.css.map */

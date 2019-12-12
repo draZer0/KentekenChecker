@@ -1,4 +1,10 @@
-@import '../css/assets/reset';
+@import '../css/assets/reset/reset';
+
+
+@font-face {
+  font-family: '/assets/font/kenteken';
+  src: url('kenteken.ttf');
+}
 
 // DEBUG:
 .header-container {
@@ -23,6 +29,11 @@
       background-color: #fff;
       width: 40vw;
       height: 10vh;
+
+      input {
+        font-family: 'kenteken', Fallback, sans-serif;
+        font-size: 2em;
+      }
     }
   }
 }
