@@ -88,7 +88,7 @@ html, body {
   height: 20vh;
 }
 .kentekenCheck-container .kentekenCheck__checker__invoer {
-  margin-top: 2vh;
+  margin-top: 4vh;
 }
 .kentekenCheck-container .kentekenCheck__checker__knop {
   margin-top: 1vh;
@@ -159,6 +159,18 @@ html, body {
 
 .kenteken-container {
   background-color: #eee;
+  height: 20vh;
+}
+
+.footer-container {
+  background-color: #222;
+  height: 20vh;
+}
+.footer-container .footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=master.css.map */
