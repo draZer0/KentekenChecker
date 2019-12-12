@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    // background-color: rgba(52, 134, 235, 0.7);  
 
     &__checker {
       background-color: #fff;
@@ -44,6 +45,21 @@
       background-color: #fff;
       width: 10vw;
       height: 10vh;
+
+      &__mark {
+
+        i {
+          color: green;
+        }
+
+        h1 {
+          color: red;
+        }
+
+        &.--title {
+          font-weight: bold;
+        }
+      }
     }
   }
 }

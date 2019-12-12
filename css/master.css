@@ -99,5 +99,14 @@ html, body {
   width: 10vw;
   height: 10vh;
 }
+.kentekenCheck-container .kentekenCheck__info__mark i {
+  color: green;
+}
+.kentekenCheck-container .kentekenCheck__info__mark h1 {
+  color: red;
+}
+.kentekenCheck-container .kentekenCheck__info__mark.--title {
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=master.css.map */
