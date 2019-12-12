@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 html, body {
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
@@ -83,29 +87,55 @@ html, body {
   width: 15vw;
   height: 20vh;
 }
+.kentekenCheck-container .kentekenCheck__checker__invoer {
+  margin-top: 2vh;
+}
+.kentekenCheck-container .kentekenCheck__checker__knop {
+  margin-top: 1vh;
+}
 .kentekenCheck-container .kentekenCheck__checker input {
-  color: #000;
+  margin: 0 auto;
+  display: block;
+  width: 11.5vw;
+  height: 6vh;
   background-color: #FBBC01;
   background-image: url("assets/svg/license_plate.svg");
   background-repeat: no-repeat;
   font-family: "kenteken", Fallback, sans-serif;
   font-size: 2em;
-  line-height: 110px;
   font-weight: bold;
+  color: #000;
   text-transform: uppercase;
   text-align: center;
   padding-left: 25px;
-  width: 10vw;
-  height: 6vh;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   outline: none;
+  transition: transform 0.1s ease-in;
 }
 .kentekenCheck-container .kentekenCheck__checker input::placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
+}
+.kentekenCheck-container .kentekenCheck__checker input:hover {
+  transform: scale(1.05);
 }
 .kentekenCheck-container .kentekenCheck__checker button {
-  font-size: 2em;
+  margin: 0 auto;
+  width: 13vw;
+  padding: 10px;
+  font-size: 1em;
+  display: block;
+  font-weight: bold;
+  background-color: #4287f5;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in;
+}
+.kentekenCheck-container .kentekenCheck__checker button:hover {
+  background-color: #3371d4;
 }
 .kentekenCheck-container .kentekenCheck__info {
   border-radius: 25px 0px 0px 0px;
