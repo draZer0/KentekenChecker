@@ -259,12 +259,12 @@ footer p {
   color: #fff;
 }
 footer a {
-  color: #4287f5;
+  color: #fff;
   font-weight: bold;
   transition: color 0.1s ease-in;
 }
 footer a:hover {
-  color: #3371d4;
+  color: #4287f5;
 }
 
 /*# sourceMappingURL=master.css.map */

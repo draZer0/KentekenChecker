@@ -227,12 +227,12 @@ footer {
   }
 
   a {
-    color: rgba(66, 135, 245, 1);
+    color: #fff;
     font-weight: bold;
     transition: color .1s ease-in;
 
     &:hover {
-      color: rgba(51, 113, 212, 1);
+      color: rgba(66, 135, 245, 1);
     }
   }
 }
