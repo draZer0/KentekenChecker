@@ -24,7 +24,10 @@ window.onload = () => {
         textVoertuigsoort.innerHTML = response[0].voertuigsoort;
         textMerk.innerHTML = response[0].merk;
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
-        textVervaldatumApk.innerHTML = response[0].vervaldatum_apk;
+
+        let test = response[0].vervaldatum_apk;
+        let test2 = test[6] + test[7] + "-" + test[4] + test[5] + "-" + test[0] + test[1] + test[2] + test[3];
+        textVervaldatumApk.innerHTML = test2;
         textDatumTenaamstelling.innerHTML = response[0].datum_tenaamstelling;
         document.getElementById('js--bruto_bpm').innerHTML = response[0].bruto_bpm;
         document.getElementById('js--inrichting').innerHTML = response[0].inrichting;
