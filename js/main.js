@@ -47,6 +47,34 @@ window.onload = () => {
         document.getElementById('js--wam_verzekerd').innerHTML = response[0].wam_verzekerd;
         document.getElementById('js--maximale_constructiesnelheid_brom_snorfiets').innerHTML = response[0].maximale_constructiesnelheid_brom_snorfiets;
         document.getElementById('js--laadvermogen').innerHTML = response[0].laadvermogen;
+        document.getElementById('js--oplegger_geremd').innerHTML = response[0].oplegger_geremd;
+        document.getElementById('js--aanhangwagen_autonoom_geremd').innerHTML = response[0].aanhangwagen_autonoom_geremd;
+        document.getElementById('js--aanhangwagen_middenas_geremd').innerHTML = response[0].aanhangwagen_middenas_geremd;
+        document.getElementById('js--vermogen_brom_snorfiets').innerHTML = response[0].vermogen_brom_snorfiets;
+        document.getElementById('js--aantal_deuren').innerHTML = response[0].aantal_deuren;
+        document.getElementById('js--aantal_wielen').innerHTML = response[0].aantal_wielen;
+        document.getElementById('js--afstand_hart_koppeling_tot_achterzijde_voertuig').innerHTML = response[0].afstand_hart_koppeling_tot_achterzijde_voertuig;
+        document.getElementById('js--afstand_voorzijde_voertuig_tot_hart_koppeling').innerHTML = response[0].afstand_voorzijde_voertuig_tot_hart_koppeling;
+        document.getElementById('js--afwijkende_maximum_snelheid').innerHTML = response[0].afwijkende_maximum_snelheid;
+        document.getElementById('js--lengte').innerHTML = response[0].lengte;
+        document.getElementById('js--breedte').innerHTML = response[0].breedte;
+        document.getElementById('js--europese_voertuigcategorie').innerHTML = response[0].europese_voertuigcategorie;
+        document.getElementById('js--europese_voertuigcategorie_toevoeging').innerHTML = response[0].europese_voertuigcategorie_toevoeging;
+        document.getElementById('js--europese_uitvoeringcategorie_toevoeging').innerHTML = response[0].europese_uitvoeringcategorie_toevoeging;
+        document.getElementById('js--plaats_chassisnummer').innerHTML = response[0].plaats_chassisnummer;
+        document.getElementById('js--technische_max_massa_voertuig').innerHTML = response[0].technische_max_massa_voertuig;
+        document.getElementById('js--type').innerHTML = response[0].type;
+        document.getElementById('js--typegoedkeuringsnummer').innerHTML = response[0].typegoedkeuringsnummer;
+        document.getElementById('js--variant').innerHTML = response[0].variant;
+        document.getElementById('js--uitvoering').innerHTML = response[0].uitvoering;
+        document.getElementById('js--volgnummer_wijziging_eu_typegoedkeuring').innerHTML = response[0].volgnummer_wijziging_eu_typegoedkeuring;
+        document.getElementById('js--vermogen_massarijklaar').innerHTML = response[0].vermogen_massarijklaar;
+        document.getElementById('js--wielbasis').innerHTML = response[0].wielbasis;
+        document.getElementById('js--export_indicator').innerHTML = response[0].export_indicator;
+        document.getElementById('js--openstaande_terugroepactie_indicator').innerHTML = response[0].openstaande_terugroepactie_indicator;
+        document.getElementById('js--vervaldatum_tachograaf').innerHTML = response[0].vervaldatum_tachograaf;
+        document.getElementById('js--taxi_indicator').innerHTML = response[0].taxi_indicator;
+        document.getElementById('js--maximum_massa_samenstelling').innerHTML = response[0].maximum_massa_samenstelling;
 
       });
   }
