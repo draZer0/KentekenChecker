@@ -36,7 +36,6 @@ window.onload = () => {
         document.getElementById('js--inrichting').innerHTML = response[0].inrichting;
         document.getElementById('js--aantal_zitplaatsen').innerHTML = response[0].aantal_zitplaatsen;
         document.getElementById('js--eerste_kleur').innerHTML = response[0].eerste_kleur;
-        document.getElementById('js--tweede_kleur').innerHTML = response[0].tweede_kleur;
         document.getElementById('js--aantal_cilinders').innerHTML = response[0].aantal_cilinders;
         document.getElementById('js--cilinderinhoud').innerHTML = response[0].cilinderinhoud;
         document.getElementById('js--massa_ledig_voertuig').innerHTML = response[0].massa_ledig_voertuig;
@@ -44,8 +43,6 @@ window.onload = () => {
         document.getElementById('js--massa_rijklaar').innerHTML = response[0].massa_rijklaar;
         document.getElementById('js--maximum_massa_trekken_ongeremd').innerHTML = response[0].maximum_massa_trekken_ongeremd;
         document.getElementById('js--maximum_trekken_massa_geremd').innerHTML = response[0].maximum_trekken_massa_geremd;
-        document.getElementById('js--retrofit_roetfilter').innerHTML = response[0].retrofit_roetfilter;
-        document.getElementById('js--zuinigheidslabel').innerHTML = response[0].zuinigheidslabel;
         document.getElementById('js--datum_eerste_toelating').innerHTML = response[0].datum_eerste_toelating;
         document.getElementById('js--datum_eerste_afgifte_nederland').innerHTML = response[0].datum_eerste_afgifte_nederland;
         document.getElementById('js--wacht_op_keuren').innerHTML = response[0].wacht_op_keuren;
