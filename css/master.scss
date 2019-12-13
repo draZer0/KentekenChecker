@@ -143,11 +143,30 @@
   }
 }
 
-// DEBUG:
 .kenteken-container {
-  // display: none; 
-  background-color: #eee;
-  height: 20vh;
+  // display: none; // DEBUG:
+
+  .kentekenHeader {
+    height: 20vh;
+    background-color: rgba(66, 135, 245, 1);
+    padding: 3% 0% 0% 26%;
+
+    h1 {
+      color: white;
+      font-size: 2.5em;
+
+      span:first-child {
+        font-weight: bold;
+      }
+    }
+
+    p {
+      color: white;
+      margin-top: 5px;
+      font-size: 1.3em;
+    }
+
+  }
 }
 
 footer {

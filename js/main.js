@@ -7,6 +7,7 @@ window.onload = () => {
   const textVoertuigsoort = document.getElementById('js--voertuigsoort');
   const textMerk = document.getElementById('js--merk');
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
+  const textCatalogusprijs = document.getElementById('js--catalogusprijs');
 
   const getKenteken = (kenteken) => {
     let request = fetch("https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken=" + kenteken + "&$$app_token=iGI52UvtT9HJ2ojfwD03tkjgX")
@@ -18,6 +19,7 @@ window.onload = () => {
         textVoertuigsoort.innerHTML = response[0].voertuigsoort;
         textMerk.innerHTML = response[0].merk;
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
+        textCatalogusprijs.innerHTML = response[0].catalogusprijs;
       });
   }
 
