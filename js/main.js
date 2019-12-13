@@ -21,8 +21,17 @@ window.onload = () => {
           return data.json();
       })
       .then( (response) => {
-        textVoertuigsoort.innerHTML = response[0].voertuigsoort;
-        textInrichting.innerHTML = response[0].inrichting;
+
+        let checkObj = (response) => {
+            if(response != null || response != undefined) {
+                return response;
+            } else {
+                return "Niet beschikbaar";
+            }
+        };
+
+        textVoertuigsoort.innerHTML = checkObj(response[0].voertuigsoort);
+        textInrichting.innerHTML = checkObj(response[0].inrichting);
 
         textKenteken.innerHTML = response[0].kenteken;
         textMerk.innerHTML = response[0].merk;
