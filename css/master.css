@@ -284,6 +284,7 @@ html, body {
 .artikel-container .artikelGrid__artikel p {
   text-align: left;
   padding: 5px 10px 10px 10px;
+  line-height: 1.3em;
 }
 .artikel-container .artikelGrid__artikel a {
   color: #4287f5;
