@@ -28,7 +28,10 @@ window.onload = () => {
         let test = response[0].vervaldatum_apk;
         let test2 = test[6] + test[7] + "-" + test[4] + test[5] + "-" + test[0] + test[1] + test[2] + test[3];
         textVervaldatumApk.innerHTML = test2;
-        textDatumTenaamstelling.innerHTML = response[0].datum_tenaamstelling;
+
+        let test3 = response[0].datum_tenaamstelling;
+        let test4 = test3[6] + test3[7] + "-" + test3[4] + test3[5] + "-" + test3[0] + test3[1] + test3[2] + test3[3];
+        textDatumTenaamstelling.innerHTML = test4;
         document.getElementById('js--bruto_bpm').innerHTML = response[0].bruto_bpm;
         document.getElementById('js--inrichting').innerHTML = response[0].inrichting;
         document.getElementById('js--aantal_zitplaatsen').innerHTML = response[0].aantal_zitplaatsen;

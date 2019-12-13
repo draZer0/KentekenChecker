@@ -214,6 +214,9 @@ html, body {
 .kenteken-container .kentekenHeader__info span {
   font-weight: bold;
 }
+.kenteken-container .kentekenHeader__info span:last-child {
+  text-transform: lowercase;
+}
 
 footer {
   background-color: #222;

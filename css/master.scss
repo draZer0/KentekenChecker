@@ -158,6 +158,7 @@
       span:first-child {
         font-weight: bold;
       }
+
     }
 
     &__info {
@@ -168,6 +169,10 @@
 
       span {
         font-weight: bold;
+      }
+
+      span:last-child {
+        text-transform: lowercase;
       }
     }
   }
