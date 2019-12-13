@@ -144,12 +144,12 @@
 }
 
 .kenteken-container {
-  // display: none; // DEBUG:
+  display: none; // DEBUG:
 
   .kentekenHeader {
     height: 20vh;
     background-color: rgba(66, 135, 245, 1);
-    padding: 3% 0% 0% 26%;
+    padding: 3% 26% 0% 26%;
 
     h1 {
       color: white;
@@ -160,10 +160,15 @@
       }
     }
 
-    p {
+    &__info {
       color: white;
       margin-top: 5px;
       font-size: 1.3em;
+      line-height: 1.3em;
+
+      span {
+        font-weight: bold;
+      }
     }
   }
 }

@@ -190,10 +190,13 @@ html, body {
   text-align: left;
 }
 
+.kenteken-container {
+  display: none;
+}
 .kenteken-container .kentekenHeader {
   height: 20vh;
   background-color: #4287f5;
-  padding: 3% 0% 0% 26%;
+  padding: 3% 26% 0% 26%;
 }
 .kenteken-container .kentekenHeader h1 {
   color: white;
@@ -202,10 +205,14 @@ html, body {
 .kenteken-container .kentekenHeader h1 span:first-child {
   font-weight: bold;
 }
-.kenteken-container .kentekenHeader p {
+.kenteken-container .kentekenHeader__info {
   color: white;
   margin-top: 5px;
   font-size: 1.3em;
+  line-height: 1.3em;
+}
+.kenteken-container .kentekenHeader__info span {
+  font-weight: bold;
 }
 
 footer {
