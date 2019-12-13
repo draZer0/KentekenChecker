@@ -8,7 +8,9 @@ window.onload = () => {
   const textVoertuigsoort = document.getElementById('js--voertuigsoort');
   const textMerk = document.getElementById('js--merk');
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
-  
+  const textVervaldatumApk = document.getElementById('js--vervaldatum_apk');
+
+
   const textCatalogusprijs = document.getElementById('js--catalogusprijs');
 
   const getKenteken = (kenteken) => {
@@ -21,6 +23,9 @@ window.onload = () => {
         textVoertuigsoort.innerHTML = response[0].voertuigsoort;
         textMerk.innerHTML = response[0].merk;
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
+        textVervaldatumApk.innerHTML = response[0].vervaldatum_apk;
+
+
         textCatalogusprijs.innerHTML = response[0].catalogusprijs;
       });
   }
