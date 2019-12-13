@@ -70,7 +70,6 @@ window.onload = () => {
         document.getElementById('js--openstaande_terugroepactie_indicator').innerHTML = response[0].openstaande_terugroepactie_indicator;
         document.getElementById('js--taxi_indicator').innerHTML = response[0].taxi_indicator;
         document.getElementById('js--maximum_massa_samenstelling').innerHTML = response[0].maximum_massa_samenstelling;
-
       });
   }
 

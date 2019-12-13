@@ -160,7 +160,7 @@ html, body {
 
 .grid-container {
   background-color: #fff;
-  height: 20vh;
+  height: 25vh;
   margin: 40px;
 }
 .grid-container .grid {
@@ -220,6 +220,7 @@ html, body {
 .kenteken-container .kentekenMeer {
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .kenteken-container .kentekenMeer table {
   width: 100%;
@@ -247,6 +248,48 @@ html, body {
 }
 .kenteken-container .kentekenMeer table tr:nth-child(odd) {
   background-color: #fff;
+}
+
+.artikel-container {
+  height: 45vh;
+  background-color: #4287f5;
+}
+.artikel-container .artikelGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  height: 100%;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+.artikel-container .artikelGrid__artikel {
+  margin: 40px;
+  background-color: #fff;
+  border-radius: 25px 0px 25px 0px;
+}
+.artikel-container .artikelGrid__artikel img {
+  width: 100%;
+  max-height: 200px;
+  height: auto;
+  border-radius: 25px 0px 0px 0px;
+}
+.artikel-container .artikelGrid__artikel h1 {
+  color: #4287f5;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.3em;
+}
+.artikel-container .artikelGrid__artikel p {
+  text-align: left;
+  padding: 5px 10px 10px 10px;
+}
+.artikel-container .artikelGrid__artikel a {
+  color: #4287f5;
+}
+.artikel-container .artikelGrid__artikel a:hover {
+  color: #336ecc;
 }
 
 footer {
