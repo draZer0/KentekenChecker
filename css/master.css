@@ -191,7 +191,6 @@ html, body {
 }
 
 .kenteken-container {
-  display: none;
   background-color: #eee;
   height: 20vh;
 }
