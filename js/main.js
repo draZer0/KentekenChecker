@@ -9,6 +9,7 @@ window.onload = () => {
   const textMerk = document.getElementById('js--merk');
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
   const textVervaldatumApk = document.getElementById('js--vervaldatum_apk');
+  const textDatumTenaamstelling = document.getElementById('js--datum_tenaamstelling');
 
 
   const textCatalogusprijs = document.getElementById('js--catalogusprijs');
@@ -24,7 +25,7 @@ window.onload = () => {
         textMerk.innerHTML = response[0].merk;
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
         textVervaldatumApk.innerHTML = response[0].vervaldatum_apk;
-
+        textDatumTenaamstelling.innerHTML = response[0].datum_tenaamstelling;
 
         textCatalogusprijs.innerHTML = response[0].catalogusprijs;
       });
