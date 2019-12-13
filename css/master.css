@@ -190,9 +190,6 @@ html, body {
   text-align: left;
 }
 
-.kenteken-container {
-  display: none;
-}
 .kenteken-container .kentekenHeader {
   height: 20vh;
   background-color: #4287f5;
@@ -216,6 +213,37 @@ html, body {
 }
 .kenteken-container .kentekenHeader__info span:first-child, .kenteken-container .kentekenHeader__info span:last-child {
   text-transform: lowercase;
+}
+.kenteken-container .kentekenMeer {
+  width: 50%;
+  margin: 0 auto;
+}
+.kenteken-container .kentekenMeer table {
+  width: 100%;
+}
+.kenteken-container .kentekenMeer table th {
+  text-align: left;
+  color: #4287f5;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: #fff;
+  border-bottom: 2px solid #4287f5;
+}
+.kenteken-container .kentekenMeer table td {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+.kenteken-container .kentekenMeer table th, .kenteken-container .kentekenMeer table td {
+  padding: 15px;
+}
+.kenteken-container .kentekenMeer table th {
+  padding-top: 30px;
+}
+.kenteken-container .kentekenMeer table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.kenteken-container .kentekenMeer table tr:nth-child(odd) {
+  background-color: #fff;
 }
 
 footer {

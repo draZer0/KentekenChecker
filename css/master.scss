@@ -144,7 +144,7 @@
 }
 
 .kenteken-container {
-  display: none; // DEBUG:
+  // display: none; // DEBUG:
 
   .kentekenHeader {
     height: 20vh;
@@ -173,6 +173,44 @@
 
       span:first-child, span:last-child {
         text-transform: lowercase;
+      }
+    }
+  }
+
+  .kentekenMeer {
+    width: 50%;
+    margin: 0 auto;
+
+    table {
+      width: 100%;
+
+      th {
+        text-align: left;
+        color: rgba(66, 135, 245, 1);
+        font-weight: bold;
+        font-size: 1.3em;
+        background-color: #fff;
+        border-bottom: 2px solid rgba(66, 135, 245, 1);
+      }
+
+      td {
+        font-size: 1.1em;
+        line-height: 1.5em;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+
+      th {
+        padding-top: 30px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f7f7f7;
+      }
+      tr:nth-child(odd) {
+        background-color: #fff;
       }
     }
   }

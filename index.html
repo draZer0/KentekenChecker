@@ -24,7 +24,7 @@
           </div>
           <div class="kentekenCheck__checker">
             <div class="kentekenCheck__checker__invoer">
-              <input id="js--input" type="text" name="" value="" placeholder="XX-999-X" maxlength="6">
+              <input id="js--input" type="text" name="" value="" placeholder="AB-123-C" maxlength="6">
             </div>
             <div class="kentekenCheck__checker__knop">
               <a href="#kentekenHeader"><button id="js--button" type="button" name="button">Check kenteken</button></a>
@@ -58,14 +58,43 @@
           <h1><span id="js--merk"></span> <span id="js--handelsbenaming"></span></h1>
           <p class="kentekenHeader__info">Deze <span id="js--voertuigsoort"></span> / <span id="js--inrichting"></span> uit <span id="js--jaar"></span> met kenteken <span id="js--kenteken"></span> kostte nieuw €<span id="js--catalogusprijs"></span>,- waarvan €<span id="js--bruto_bpm"></span>,- aan BPM is betaald. De originele kleur van dit voertuig is <span id="js--eerste_kleur"></span>.</p>
         </div>
+        <div class="kentekenMeer">
+          <table>
+            <tr>
+              <th>Test</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>Vervaldatum APK</td>
+              <td><span id="js--vervaldatum_apk"></span></td>
+            </tr>
+            <tr>
+              <td>Datum tenaamstelling</td>
+              <td><span id="js--datum_tenaamstelling"></span></td>
+            </tr>
+            <tr>
+              <td>Datum eerste toelating</td>
+              <td><span id="js--datum_eerste_toelating"></span></td>
+            </tr>
+            <tr>
+              <td>Datum eerste afgifte Nederland</td>
+              <td><span id="js--datum_eerste_afgifte_nederland"></span></td>
+            </tr>
+            <tr>
+              <th>Test</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>Zitplaatsen</td>
+              <td><span id="js--aantal_zitplaatsen"></span></td>
+            </tr>
+            <tr>
+              <td>Aantal deuren</td>
+              <td><span id="js--aantal_deuren"></span></td>
+            </tr>
+          </table>
+        </div>
 
-
-        <p><span id="js--vervaldatum_apk"></span></p><!-- Vervaldatum APK -->
-        <p><span id="js--datum_tenaamstelling"></span></p><!-- Tenaamstelling datum -->
-        <p><span id="js--datum_eerste_toelating"></span></p>
-        <p><span id="js--datum_eerste_afgifte_nederland"></span></p>
-        <p><span id="js--aantal_zitplaatsen"></span></p><!-- 5 -->
-        <p><span id="js--aantal_deuren"></span></p>
         <p><span id="js--aantal_wielen"></span></p>
         <p><span id="js--wam_verzekerd"></span></p>
         <p><span id="js--aantal_cilinders"></span></p><!-- Aantal cilinders -->
@@ -99,6 +128,8 @@
 
       </div>
     </main>
+
+    <button onclick="naarBoven()" id="naarBovenKnop" title="Ga naar boven"><i class="fa fa-arrow-up"></i></button>
 
     <footer>
       <p>&copy; 2019 &mdash; <a href="https://github.com/draZer0">Kenteken Checker</a></p>
