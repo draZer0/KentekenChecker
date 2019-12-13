@@ -11,6 +11,8 @@ window.onload = () => {
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
   const textVervaldatumApk = document.getElementById('js--vervaldatum_apk');
   const textDatumTenaamstelling = document.getElementById('js--datum_tenaamstelling');
+  const textDatumEersteToelating = document.getElementById('js--datum_eerste_toelating');
+  const textDatumEersteAfgifte = document.getElementById('js--datum_eerste_afgifte_nederland');
 
 
   const textCatalogusprijs = document.getElementById('js--catalogusprijs');
@@ -55,12 +57,17 @@ window.onload = () => {
         document.getElementById('js--maximum_massa_trekken_ongeremd').innerHTML = checkObj(response[0].maximum_massa_trekken_ongeremd);
         document.getElementById('js--maximum_trekken_massa_geremd').innerHTML = checkObj(response[0].maximum_trekken_massa_geremd);
 
-        document.getElementById('js--datum_eerste_toelating').innerHTML = checkObj(response[0].datum_eerste_toelating);
+        let datumEersteToelating = checkObj(response[0].datum_eerste_toelating);
+        let datumEersteToelatingResult = datumEersteToelating[6] + datumEersteToelating[7] + "-" + datumEersteToelating[4] + datumEersteToelating[5] + "-" + datumEersteToelating[0] + datumEersteToelating[1] + datumEersteToelating[2] + datumEersteToelating[3];
+        textDatumEersteToelating.innerHTML = datumEersteToelatingResult;
 
         let jaar = checkObj(response[0].datum_eerste_toelating);
         let jaarResult = jaar[0] + jaar[1] + jaar[2] + jaar[3];
         document.getElementById('js--jaar').innerHTML = jaarResult;
-        document.getElementById('js--datum_eerste_afgifte_nederland').innerHTML = checkObj(response[0].datum_eerste_afgifte_nederland);
+
+        let datumEersteAfgifte = checkObj(response[0].datum_eerste_afgifte_nederland);
+        let datumEersteAfgifteResult = datumEersteAfgifte[6] + datumEersteAfgifte[7] + "-" + datumEersteAfgifte[4] + datumEersteAfgifte[5] + "-" + datumEersteAfgifte[0] + datumEersteAfgifte[1] + datumEersteAfgifte[2] + datumEersteAfgifte[3];
+        textDatumEersteAfgifte.innerHTML = datumEersteAfgifteResult;
         document.getElementById('js--wacht_op_keuren').innerHTML = checkObj(response[0].wacht_op_keuren);
         textCatalogusprijs.innerHTML = checkObj(response[0].catalogusprijs);
         document.getElementById('js--wam_verzekerd').innerHTML = checkObj(response[0].wam_verzekerd);
