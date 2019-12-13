@@ -171,7 +171,7 @@
         font-weight: bold;
       }
 
-      span:last-child {
+      span:first-child, span:last-child {
         text-transform: lowercase;
       }
     }

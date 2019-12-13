@@ -45,6 +45,10 @@ window.onload = () => {
         document.getElementById('js--maximum_trekken_massa_geremd').innerHTML = response[0].maximum_trekken_massa_geremd;
 
         document.getElementById('js--datum_eerste_toelating').innerHTML = response[0].datum_eerste_toelating;
+
+        let jaar = response[0].datum_eerste_toelating;
+        let jaarResult = jaar[0] + jaar[1] + jaar[2] + jaar[3];
+        document.getElementById('js--jaar').innerHTML = jaarResult;
         document.getElementById('js--datum_eerste_afgifte_nederland').innerHTML = response[0].datum_eerste_afgifte_nederland;
         document.getElementById('js--wacht_op_keuren').innerHTML = response[0].wacht_op_keuren;
         textCatalogusprijs.innerHTML = response[0].catalogusprijs;
@@ -52,13 +56,10 @@ window.onload = () => {
 
         document.getElementById('js--aantal_deuren').innerHTML = response[0].aantal_deuren;
         document.getElementById('js--aantal_wielen').innerHTML = response[0].aantal_wielen;
-    
-        document.getElementById('js--afwijkende_maximum_snelheid').innerHTML = response[0].afwijkende_maximum_snelheid;
+
+
         document.getElementById('js--lengte').innerHTML = response[0].lengte;
-        document.getElementById('js--breedte').innerHTML = response[0].breedte;
-        document.getElementById('js--europese_voertuigcategorie').innerHTML = response[0].europese_voertuigcategorie;
-        document.getElementById('js--europese_voertuigcategorie_toevoeging').innerHTML = response[0].europese_voertuigcategorie_toevoeging;
-        document.getElementById('js--europese_uitvoeringcategorie_toevoeging').innerHTML = response[0].europese_uitvoeringcategorie_toevoeging;
+
         document.getElementById('js--plaats_chassisnummer').innerHTML = response[0].plaats_chassisnummer;
         document.getElementById('js--technische_max_massa_voertuig').innerHTML = response[0].technische_max_massa_voertuig;
         document.getElementById('js--type').innerHTML = response[0].type;
@@ -70,11 +71,9 @@ window.onload = () => {
         document.getElementById('js--wielbasis').innerHTML = response[0].wielbasis;
         document.getElementById('js--export_indicator').innerHTML = response[0].export_indicator;
         document.getElementById('js--openstaande_terugroepactie_indicator').innerHTML = response[0].openstaande_terugroepactie_indicator;
-        document.getElementById('js--vervaldatum_tachograaf').innerHTML = response[0].vervaldatum_tachograaf;
         document.getElementById('js--taxi_indicator').innerHTML = response[0].taxi_indicator;
         document.getElementById('js--maximum_massa_samenstelling').innerHTML = response[0].maximum_massa_samenstelling;
-        document.getElementById('js--aantal_rolstoelplaatsen').innerHTML = response[0].aantal_rolstoelplaatsen;
-        document.getElementById('js--maximum_ondersteunende_snelheid').innerHTML = response[0].maximum_ondersteunende_snelheid;
+
       });
   }
 

@@ -214,7 +214,7 @@ html, body {
 .kenteken-container .kentekenHeader__info span {
   font-weight: bold;
 }
-.kenteken-container .kentekenHeader__info span:last-child {
+.kenteken-container .kentekenHeader__info span:first-child, .kenteken-container .kentekenHeader__info span:last-child {
   text-transform: lowercase;
 }
 
