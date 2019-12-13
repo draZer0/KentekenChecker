@@ -1,12 +1,14 @@
 window.onload = () => {
   const input = document.getElementById('js--input');
   const button = document.getElementById('js--button');
-
   const kentekenContainer = document.getElementById('js--kenteken-container');
+
+  // ALL DATA from API
   const textKenteken = document.getElementById('js--kenteken');
   const textVoertuigsoort = document.getElementById('js--voertuigsoort');
   const textMerk = document.getElementById('js--merk');
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
+  
   const textCatalogusprijs = document.getElementById('js--catalogusprijs');
 
   const getKenteken = (kenteken) => {
