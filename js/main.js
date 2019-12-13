@@ -4,8 +4,9 @@ window.onload = () => {
   const kentekenContainer = document.getElementById('js--kenteken-container');
 
   // ALL DATA from API
-  const textKenteken = document.getElementById('js--kenteken');
   const textVoertuigsoort = document.getElementById('js--voertuigsoort');
+  const textInrichting = document.getElementById('js--inrichting');
+  const textKenteken = document.getElementById('js--kenteken');
   const textMerk = document.getElementById('js--merk');
   const textHandelsbenaming = document.getElementById('js--handelsbenaming');
   const textVervaldatumApk = document.getElementById('js--vervaldatum_apk');
@@ -20,8 +21,10 @@ window.onload = () => {
           return data.json();
       })
       .then( (response) => {
-        textKenteken.innerHTML = response[0].kenteken;
         textVoertuigsoort.innerHTML = response[0].voertuigsoort;
+        textInrichting.innerHTML = response[0].inrichting;
+
+        textKenteken.innerHTML = response[0].kenteken;
         textMerk.innerHTML = response[0].merk;
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
 
@@ -33,7 +36,6 @@ window.onload = () => {
         let test4 = test3[6] + test3[7] + "-" + test3[4] + test3[5] + "-" + test3[0] + test3[1] + test3[2] + test3[3];
         textDatumTenaamstelling.innerHTML = test4;
         document.getElementById('js--bruto_bpm').innerHTML = response[0].bruto_bpm;
-        document.getElementById('js--inrichting').innerHTML = response[0].inrichting;
         document.getElementById('js--aantal_zitplaatsen').innerHTML = response[0].aantal_zitplaatsen;
         document.getElementById('js--eerste_kleur').innerHTML = response[0].eerste_kleur;
         document.getElementById('js--aantal_cilinders').innerHTML = response[0].aantal_cilinders;
@@ -60,13 +62,8 @@ window.onload = () => {
 
         document.getElementById('js--lengte').innerHTML = response[0].lengte;
 
-        document.getElementById('js--plaats_chassisnummer').innerHTML = response[0].plaats_chassisnummer;
         document.getElementById('js--technische_max_massa_voertuig').innerHTML = response[0].technische_max_massa_voertuig;
-        document.getElementById('js--type').innerHTML = response[0].type;
-        document.getElementById('js--typegoedkeuringsnummer').innerHTML = response[0].typegoedkeuringsnummer;
-        document.getElementById('js--variant').innerHTML = response[0].variant;
-        document.getElementById('js--uitvoering').innerHTML = response[0].uitvoering;
-        document.getElementById('js--volgnummer_wijziging_eu_typegoedkeuring').innerHTML = response[0].volgnummer_wijziging_eu_typegoedkeuring;
+
         document.getElementById('js--vermogen_massarijklaar').innerHTML = response[0].vermogen_massarijklaar;
         document.getElementById('js--wielbasis').innerHTML = response[0].wielbasis;
         document.getElementById('js--export_indicator').innerHTML = response[0].export_indicator;
