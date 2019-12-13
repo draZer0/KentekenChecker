@@ -80,12 +80,6 @@ window.onload = () => {
         document.getElementById('js--maximum_massa_samenstelling').innerHTML = response[0].maximum_massa_samenstelling;
         document.getElementById('js--aantal_rolstoelplaatsen').innerHTML = response[0].aantal_rolstoelplaatsen;
         document.getElementById('js--maximum_ondersteunende_snelheid').innerHTML = response[0].maximum_ondersteunende_snelheid;
-        document.getElementById('js--api_gekentekende_voertuigen_assen').innerHTML = response[0].api_gekentekende_voertuigen_assen;
-        document.getElementById('js--api_gekentekende_voertuigen_brandstof').innerHTML = response[0].api_gekentekende_voertuigen_brandstof;
-        document.getElementById('js--api_gekentekende_voertuigen_carrosserie').innerHTML = response[0].api_gekentekende_voertuigen_carrosserie;
-        document.getElementById('js--api_gekentekende_voertuigen_carrosserie_specifiek').innerHTML = response[0].api_gekentekende_voertuigen_carrosserie_specifiek;
-        document.getElementById('js--api_gekentekende_voertuigen_voertuigklasse').innerHTML = response[0].api_gekentekende_voertuigen_voertuigklasse;
-
       });
   }
 
