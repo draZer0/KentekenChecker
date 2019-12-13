@@ -190,6 +190,9 @@ html, body {
   text-align: left;
 }
 
+.kenteken-container {
+  display: none;
+}
 .kenteken-container .kentekenHeader {
   height: 20vh;
   background-color: #4287f5;
