@@ -43,21 +43,16 @@ window.onload = () => {
         document.getElementById('js--massa_rijklaar').innerHTML = response[0].massa_rijklaar;
         document.getElementById('js--maximum_massa_trekken_ongeremd').innerHTML = response[0].maximum_massa_trekken_ongeremd;
         document.getElementById('js--maximum_trekken_massa_geremd').innerHTML = response[0].maximum_trekken_massa_geremd;
+
         document.getElementById('js--datum_eerste_toelating').innerHTML = response[0].datum_eerste_toelating;
         document.getElementById('js--datum_eerste_afgifte_nederland').innerHTML = response[0].datum_eerste_afgifte_nederland;
         document.getElementById('js--wacht_op_keuren').innerHTML = response[0].wacht_op_keuren;
         textCatalogusprijs.innerHTML = response[0].catalogusprijs;
         document.getElementById('js--wam_verzekerd').innerHTML = response[0].wam_verzekerd;
-        document.getElementById('js--maximale_constructiesnelheid_brom_snorfiets').innerHTML = response[0].maximale_constructiesnelheid_brom_snorfiets;
-        document.getElementById('js--laadvermogen').innerHTML = response[0].laadvermogen;
-        document.getElementById('js--oplegger_geremd').innerHTML = response[0].oplegger_geremd;
-        document.getElementById('js--aanhangwagen_autonoom_geremd').innerHTML = response[0].aanhangwagen_autonoom_geremd;
-        document.getElementById('js--aanhangwagen_middenas_geremd').innerHTML = response[0].aanhangwagen_middenas_geremd;
-        document.getElementById('js--vermogen_brom_snorfiets').innerHTML = response[0].vermogen_brom_snorfiets;
+
         document.getElementById('js--aantal_deuren').innerHTML = response[0].aantal_deuren;
         document.getElementById('js--aantal_wielen').innerHTML = response[0].aantal_wielen;
-        document.getElementById('js--afstand_hart_koppeling_tot_achterzijde_voertuig').innerHTML = response[0].afstand_hart_koppeling_tot_achterzijde_voertuig;
-        document.getElementById('js--afstand_voorzijde_voertuig_tot_hart_koppeling').innerHTML = response[0].afstand_voorzijde_voertuig_tot_hart_koppeling;
+    
         document.getElementById('js--afwijkende_maximum_snelheid').innerHTML = response[0].afwijkende_maximum_snelheid;
         document.getElementById('js--lengte').innerHTML = response[0].lengte;
         document.getElementById('js--breedte').innerHTML = response[0].breedte;
