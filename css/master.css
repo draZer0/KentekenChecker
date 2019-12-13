@@ -207,6 +207,10 @@ html, body {
   margin-top: 5px;
   font-size: 1.3em;
 }
+.kenteken-container p {
+  margin-left: 200px;
+  line-height: 1.5em;
+}
 
 footer {
   background-color: #222;

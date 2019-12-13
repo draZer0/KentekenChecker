@@ -26,6 +26,13 @@ window.onload = () => {
         textHandelsbenaming.innerHTML = response[0].handelsbenaming;
         textVervaldatumApk.innerHTML = response[0].vervaldatum_apk;
         textDatumTenaamstelling.innerHTML = response[0].datum_tenaamstelling;
+        document.getElementById('js--bruto_bpm').innerHTML = response[0].bruto_bpm;
+        document.getElementById('js--inrichting').innerHTML = response[0].inrichting;
+        document.getElementById('js--aantal_zitplaatsen').innerHTML = response[0].aantal_zitplaatsen;
+        document.getElementById('js--eerste_kleur').innerHTML = response[0].eerste_kleur;
+        document.getElementById('js--tweede_kleur').innerHTML = response[0].tweede_kleur;
+        document.getElementById('js--aantal_cilinders').innerHTML = response[0].aantal_cilinders;
+        document.getElementById('js--cilinderinhoud').innerHTML = response[0].cilinderinhoud;
 
         textCatalogusprijs.innerHTML = response[0].catalogusprijs;
       });
