@@ -251,7 +251,7 @@ html, body {
 }
 
 .artikel-container {
-  height: 45vh;
+  height: 50vh;
   background-color: #4287f5;
 }
 .artikel-container .artikelGrid {
@@ -318,10 +318,24 @@ footer a:hover {
   .grid-container .grid {
     width: 60%;
   }
+
+  .artikel-container {
+    height: 55vh;
+  }
+  .artikel-container .artikelGrid {
+    width: 65%;
+  }
 }
 @media (max-width: 1400px) {
   .grid-container .grid {
     width: 70%;
+  }
+
+  .artikel-container .artikelGrid__artikel p {
+    font-size: 1.05em;
+  }
+  .artikel-container .artikelGrid__artikel h1 {
+    font-size: 1.4em;
   }
 }
 @media (max-width: 1000px) {
@@ -331,10 +345,14 @@ footer a:hover {
   .grid-container .grid {
     width: 85%;
   }
+
+  .artikel-container .artikelGrid {
+    width: 85%;
+  }
 }
 @media (max-width: 800px) {
   .grid-container {
-    height: 75vh;
+    height: 80vh;
   }
   .grid-container .grid {
     grid-template-columns: 1fr;
@@ -342,6 +360,33 @@ footer a:hover {
   }
   .grid-container .grid__section p {
     margin-bottom: 80px;
+  }
+}
+@media (max-width: 750px) {
+  .artikel-container {
+    height: 110vh;
+  }
+  .artikel-container .artikelGrid {
+    width: 65%;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .grid-container {
+    height: 90vh;
+  }
+
+  .artikel-container {
+    height: 100vh;
+  }
+  .artikel-container .artikelGrid {
+    width: 90%;
+  }
+  .artikel-container .artikelGrid__artikel p {
+    font-size: 0.95em;
+  }
+  .artikel-container .artikelGrid__artikel h1 {
+    font-size: 1.2em;
   }
 }
 
