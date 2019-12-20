@@ -357,6 +357,13 @@ footer a:hover {
     width: 70%;
   }
 
+  .kenteken-container .kentekenHeader {
+    padding: 3% 15% 0% 15%;
+  }
+  .kenteken-container .kentekenMeer {
+    width: 70%;
+  }
+
   .artikel-container .artikelGrid__artikel p {
     font-size: 1.05em;
   }
@@ -428,6 +435,13 @@ footer a:hover {
     width: 65%;
     grid-template-columns: 1fr;
   }
+
+  .kenteken-container .kentekenHeader {
+    padding: 3% 11% 0% 11%;
+  }
+  .kenteken-container .kentekenMeer {
+    width: 80%;
+  }
 }
 @media (max-width: 700px) {
   .kentekenCheck-container .kentekenCheck {
@@ -455,6 +469,19 @@ footer a:hover {
   }
   .kentekenCheck-container .kentekenCheck__info__mark.--title {
     font-size: 1.6em;
+  }
+
+  .kenteken-container .kentekenHeader {
+    padding: 3% 11% 0% 11%;
+  }
+  .kenteken-container .kentekenHeader h1 {
+    font-size: 2em;
+  }
+  .kenteken-container .kentekenHeader__info {
+    font-size: 1.1em;
+  }
+  .kenteken-container .kentekenMeer {
+    width: 80%;
   }
 }
 @media (max-width: 500px) {

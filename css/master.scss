@@ -9,7 +9,7 @@
   background-color: grey;
   height: 50vh;
 
-  .kentekenCheck {
+  .kentekenCheck { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,6 +357,17 @@ footer {
     }
   }
 
+  .kenteken-container {
+
+    .kentekenHeader {
+      padding: 3% 15% 0% 15%;
+    }
+
+    .kentekenMeer {
+      width: 70%;
+    }
+  }
+
   .artikel-container {
 
     .artikelGrid {
@@ -470,6 +481,17 @@ footer {
       grid-template-columns: 1fr;
     }
   }
+
+  .kenteken-container {
+
+    .kentekenHeader {
+      padding: 3% 11% 0% 11%;
+    }
+
+    .kentekenMeer {
+      width: 80%;
+    }
+  }
 }
 
 @media (max-width: 700px) {
@@ -506,6 +528,25 @@ footer {
           }
         }
       }
+    }
+  }
+
+  .kenteken-container {
+
+    .kentekenHeader {
+      padding: 3% 11% 0% 11%;
+
+      h1 {
+        font-size: 2em;
+      }
+
+      &__info {
+        font-size: 1.1em;
+      }
+    }
+
+    .kentekenMeer {
+      width: 80%;
     }
   }
 }
