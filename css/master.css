@@ -190,6 +190,9 @@ html, body {
   margin-bottom: 400px;
 }
 
+.kenteken-container {
+  display: none;
+}
 .kenteken-container .kentekenHeader {
   height: 20vh;
   background-color: #4287f5;
@@ -308,7 +311,7 @@ footer a:hover {
   color: #4287f5;
 }
 
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
   .kentekenCheck-container .kentekenCheck__checker {
     width: 20vw;
   }
@@ -336,7 +339,7 @@ footer a:hover {
     width: 65%;
   }
 }
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .kentekenCheck-container .kentekenCheck__checker {
     width: 25vw;
   }
@@ -368,7 +371,7 @@ footer a:hover {
     font-size: 1.4em;
   }
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .kentekenCheck-container .kentekenCheck__checker {
     width: 30vw;
   }
@@ -393,7 +396,7 @@ footer a:hover {
     width: 85%;
   }
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .kentekenCheck-container .kentekenCheck__checker {
     width: 32vw;
   }
@@ -424,7 +427,7 @@ footer a:hover {
     margin-bottom: 80px;
   }
 }
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .artikel-container {
     height: 110vh;
   }
@@ -440,7 +443,7 @@ footer a:hover {
     width: 80%;
   }
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .kentekenCheck-container {
     height: 65vh;
   }
@@ -489,13 +492,13 @@ footer a:hover {
 @media (max-width: 500px) {
   .kentekenCheck-container .kentekenCheck__checker {
     width: 65vw;
-    height: 13vh;
+    height: 15vh;
   }
   .kentekenCheck-container .kentekenCheck__checker input {
     width: 55vw;
   }
   .kentekenCheck-container .kentekenCheck__checker button {
-    width: 63vw;
+    width: 67vw;
   }
   .kentekenCheck-container .kentekenCheck__info {
     width: 65vw;
@@ -508,7 +511,7 @@ footer a:hover {
   }
 
   .grid-container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .kenteken-container .kentekenHeader {
@@ -532,7 +535,7 @@ footer a:hover {
   }
 
   .artikel-container {
-    height: 100vh;
+    height: 110vh;
   }
   .artikel-container .artikelGrid {
     width: 90%;

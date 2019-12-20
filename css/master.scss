@@ -145,7 +145,7 @@
 }
 
 .kenteken-container {
-  // display: none; // DEBUG:
+  display: none; // DEBUG:
 
   .kentekenHeader {
     height: 20vh;
@@ -289,7 +289,7 @@ footer {
   }
 }
 
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
   .kentekenCheck-container {
     .kentekenCheck {
 
@@ -328,7 +328,7 @@ footer {
   }
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .kentekenCheck-container {
     .kentekenCheck {
 
@@ -387,7 +387,7 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .kentekenCheck-container {
     .kentekenCheck {
 
@@ -425,7 +425,7 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .kentekenCheck-container {
     .kentekenCheck {
 
@@ -472,7 +472,7 @@ footer {
   }
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .artikel-container {
     height: 110vh;
 
@@ -494,7 +494,7 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .kentekenCheck-container {
     height: 65vh;
 
@@ -562,14 +562,14 @@ footer {
 
       &__checker {
         width: 65vw;
-        height: 13vh;
+        height: 15vh;
 
         input {
           width: 55vw;
         }
 
         button {
-          width: 63vw;
+          width: 67vw;
         }
 
       }
@@ -589,7 +589,7 @@ footer {
   }
 
   .grid-container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .kenteken-container {
@@ -624,7 +624,7 @@ footer {
   }
 
   .artikel-container {
-    height: 100vh;
+    height: 110vh;
 
     .artikelGrid {
       width: 90%;
