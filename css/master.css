@@ -390,6 +390,25 @@ footer a:hover {
   }
 }
 @media (max-width: 800px) {
+  .kentekenCheck-container .kentekenCheck__checker {
+    width: 32vw;
+  }
+  .kentekenCheck-container .kentekenCheck__checker input {
+    width: 25vw;
+  }
+  .kentekenCheck-container .kentekenCheck__checker button {
+    width: 29vw;
+  }
+  .kentekenCheck-container .kentekenCheck__info {
+    width: 37vw;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark {
+    font-size: 1.1em;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark.--title {
+    font-size: 1.6em;
+  }
+
   .grid-container {
     height: 80vh;
   }

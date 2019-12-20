@@ -415,6 +415,35 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .kentekenCheck-container {
+    .kentekenCheck {
+
+      &__checker {
+        width: 32vw;
+
+        input {
+          width: 25vw;
+        }
+
+        button {
+          width: 29vw;
+        }
+      }
+
+      &__info {
+        width: 37vw;
+
+        &__mark {
+          font-size: 1.1em;
+
+          &.--title {
+            font-size: 1.6em; 
+          }
+        }
+      }
+    }
+  }
+
   .grid-container {
     height: 80vh;
 
