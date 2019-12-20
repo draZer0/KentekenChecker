@@ -86,7 +86,7 @@
       padding: 25px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom: 10px solid rgba(66, 135, 245, 1);
-      width: 16vw;
+      width: 20vw;
       height: 20vh;
 
       &__mark {
@@ -290,6 +290,27 @@ footer {
 }
 
 @media (max-width: 1600px) {
+  .kentekenCheck-container {
+    .kentekenCheck {
+
+      &__checker {
+        width: 20vw;
+
+        input {
+          width: 15vw;
+        }
+
+        button {
+          width: 17vw;
+        }
+      }
+
+      &__info {
+        width: 25vw;
+      }
+    }
+  }
+
   .grid-container {
     height: 30vh;
 
@@ -308,6 +329,27 @@ footer {
 }
 
 @media (max-width: 1400px) {
+  .kentekenCheck-container {
+    .kentekenCheck {
+
+      &__checker {
+        width: 25vw;
+
+        input {
+          width: 18vw;
+        }
+
+        button {
+          width: 20.5vw;
+        }
+      }
+
+      &__info {
+        width: 30vw;
+      }
+    }
+  }
+
   .grid-container {
 
     .grid {
@@ -335,6 +377,27 @@ footer {
 }
 
 @media (max-width: 1000px) {
+  .kentekenCheck-container {
+    .kentekenCheck {
+
+      &__checker {
+        width: 30vw;
+
+        input {
+          width: 22vw;
+        }
+
+        button {
+          width: 25vw;
+        }
+      }
+
+      &__info {
+        width: 35vw;
+      }
+    }
+  }
+
   .grid-container {
     height: 35vh;
 
