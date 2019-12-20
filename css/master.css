@@ -444,12 +444,16 @@ footer a:hover {
   }
 }
 @media (max-width: 700px) {
+  .kentekenCheck-container {
+    height: 65vh;
+  }
   .kentekenCheck-container .kentekenCheck {
     flex-direction: column;
   }
   .kentekenCheck-container .kentekenCheck__checker {
     width: 50vw;
     height: 15vh;
+    padding: 0px 25px 25px 25px;
   }
   .kentekenCheck-container .kentekenCheck__checker input {
     width: 35vw;
@@ -463,6 +467,7 @@ footer a:hover {
   .kentekenCheck-container .kentekenCheck__info {
     width: 50vw;
     border-bottom: none;
+    padding: 25px 25px 0px 25px;
   }
   .kentekenCheck-container .kentekenCheck__info__mark {
     font-size: 1.1em;
@@ -485,6 +490,26 @@ footer a:hover {
   }
 }
 @media (max-width: 500px) {
+  .kentekenCheck-container .kentekenCheck__checker {
+    width: 65vw;
+    height: 13vh;
+  }
+  .kentekenCheck-container .kentekenCheck__checker input {
+    width: 55vw;
+  }
+  .kentekenCheck-container .kentekenCheck__checker button {
+    width: 60vw;
+  }
+  .kentekenCheck-container .kentekenCheck__info {
+    width: 65vw;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark {
+    font-size: 1.1em;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark.--title {
+    font-size: 1.3em;
+  }
+
   .grid-container {
     height: 90vh;
   }

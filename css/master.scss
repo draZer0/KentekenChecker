@@ -9,7 +9,7 @@
   background-color: grey;
   height: 50vh;
 
-  .kentekenCheck { 
+  .kentekenCheck {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -496,12 +496,15 @@ footer {
 
 @media (max-width: 700px) {
   .kentekenCheck-container {
+    height: 65vh;
+
     .kentekenCheck {
       flex-direction: column;
 
       &__checker {
         width: 50vw;
         height: 15vh;
+        padding: 0px 25px 25px 25px;
 
         input {
           width: 35vw;
@@ -519,6 +522,7 @@ footer {
       &__info {
         width: 50vw;
         border-bottom: none;
+        padding: 25px 25px 0px 25px;
 
         &__mark {
           font-size: 1.1em;
@@ -552,6 +556,38 @@ footer {
 }
 
 @media (max-width: 500px) {
+  .kentekenCheck-container {
+
+    .kentekenCheck {
+
+      &__checker {
+        width: 65vw;
+        height: 13vh;
+
+        input {
+          width: 55vw;
+        }
+
+        button {
+          width: 60vw;
+        }
+
+      }
+
+      &__info {
+        width: 65vw;
+
+        &__mark {
+          font-size: 1.1em;
+
+          &.--title {
+            font-size: 1.3em;
+          }
+        }
+      }
+    }
+  }
+
   .grid-container {
     height: 90vh;
   }
