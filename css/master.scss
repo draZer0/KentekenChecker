@@ -145,7 +145,7 @@
 }
 
 .kenteken-container {
-  display: none; // DEBUG:
+  // display: none; // DEBUG:
 
   .kentekenHeader {
     height: 20vh;
@@ -569,7 +569,7 @@ footer {
         }
 
         button {
-          width: 60vw;
+          width: 63vw;
         }
 
       }
@@ -590,6 +590,37 @@ footer {
 
   .grid-container {
     height: 90vh;
+  }
+
+  .kenteken-container {
+
+    .kentekenHeader {
+      padding: 3% 8% 0% 8%;
+
+      h1 {
+        font-size: 1.6em;
+      }
+
+      &__info {
+        font-size: 0.9em;
+        line-height: 1.4em;
+      }
+    }
+
+    .kentekenMeer {
+      width: 95%;
+
+      table {
+
+        th {
+          font-size: 1.1em;
+        }
+
+        td {
+          font-size: 0.9em;
+        }
+      }
+    }
   }
 
   .artikel-container {

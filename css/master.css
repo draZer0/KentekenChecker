@@ -190,9 +190,6 @@ html, body {
   margin-bottom: 400px;
 }
 
-.kenteken-container {
-  display: none;
-}
 .kenteken-container .kentekenHeader {
   height: 20vh;
   background-color: #4287f5;
@@ -498,7 +495,7 @@ footer a:hover {
     width: 55vw;
   }
   .kentekenCheck-container .kentekenCheck__checker button {
-    width: 60vw;
+    width: 63vw;
   }
   .kentekenCheck-container .kentekenCheck__info {
     width: 65vw;
@@ -512,6 +509,26 @@ footer a:hover {
 
   .grid-container {
     height: 90vh;
+  }
+
+  .kenteken-container .kentekenHeader {
+    padding: 3% 8% 0% 8%;
+  }
+  .kenteken-container .kentekenHeader h1 {
+    font-size: 1.6em;
+  }
+  .kenteken-container .kentekenHeader__info {
+    font-size: 0.9em;
+    line-height: 1.4em;
+  }
+  .kenteken-container .kentekenMeer {
+    width: 95%;
+  }
+  .kenteken-container .kentekenMeer table th {
+    font-size: 1.1em;
+  }
+  .kenteken-container .kentekenMeer table td {
+    font-size: 0.9em;
   }
 
   .artikel-container {
