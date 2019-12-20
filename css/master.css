@@ -429,6 +429,34 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 700px) {
+  .kentekenCheck-container .kentekenCheck {
+    flex-direction: column;
+  }
+  .kentekenCheck-container .kentekenCheck__checker {
+    width: 50vw;
+    height: 15vh;
+  }
+  .kentekenCheck-container .kentekenCheck__checker input {
+    width: 35vw;
+  }
+  .kentekenCheck-container .kentekenCheck__checker button {
+    width: 39vw;
+  }
+  .kentekenCheck-container .kentekenCheck__checker__invoer {
+    margin-top: 1vh;
+  }
+  .kentekenCheck-container .kentekenCheck__info {
+    width: 50vw;
+    border-bottom: none;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark {
+    font-size: 1.1em;
+  }
+  .kentekenCheck-container .kentekenCheck__info__mark.--title {
+    font-size: 1.6em;
+  }
+}
 @media (max-width: 500px) {
   .grid-container {
     height: 90vh;

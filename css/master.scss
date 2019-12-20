@@ -437,7 +437,7 @@ footer {
           font-size: 1.1em;
 
           &.--title {
-            font-size: 1.6em; 
+            font-size: 1.6em;
           }
         }
       }
@@ -468,6 +468,44 @@ footer {
     .artikelGrid {
       width: 65%;
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .kentekenCheck-container {
+    .kentekenCheck {
+      flex-direction: column;
+
+      &__checker {
+        width: 50vw;
+        height: 15vh;
+
+        input {
+          width: 35vw;
+        }
+
+        button {
+          width: 39vw;
+        }
+
+        &__invoer {
+          margin-top: 1vh;
+        }
+      }
+
+      &__info {
+        width: 50vw;
+        border-bottom: none;
+
+        &__mark {
+          font-size: 1.1em;
+
+          &.--title {
+            font-size: 1.6em;
+          }
+        }
+      }
     }
   }
 }
