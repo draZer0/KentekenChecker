@@ -7,6 +7,10 @@
     <title>Kenteken Checker &mdash; Home</title>
     <script src="js/main.js"></script>
     <script src="js/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js" crossorigin="anonymous"></script>
+    <script>
+    new WOW().init();
+    </script>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/assets/animate/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -15,7 +19,7 @@
 
     <main>
       <div class="kentekenCheck-container">
-        <div class="kentekenCheck animated jackInTheBox">
+        <div class="kentekenCheck wow animated jackInTheBox">
           <div class="kentekenCheck__info">
             <h1 class="kentekenCheck__info__mark --title"><i class="fas fa-check-double"></i> Kenteken <span>Checker</span></h1>
             <h2 class="kentekenCheck__info__mark"><i class="fas fa-check"></i> Catalogusprijs</h2>
@@ -36,17 +40,17 @@
 
       <div class="grid-container">
         <div class="grid">
-          <div class="grid__section animated fadeInLeft">
+          <div class="grid__section wow animated fadeInLeft">
             <i class="fas fa-car"></i>
             <h1>Kenteken Checker</h1>
             <p>Zoek niet verder! Via deze online kenteken checker kunt u gemakkelijk meer te weten komen over een specifiek voertuig.</p>
           </div>
-          <div class="grid__section animated fadeIn">
+          <div class="grid__section wow animated fadeIn">
             <i class="fas fa-money-bill-wave"></i>
             <h1>Catalogusprijs</h1>
             <p>Heeft u een mooie wagen gespot en bent u benieuwd hoe duur deze was? En hoeveel BPM er is betaald? Check het nu via Kenteken Checker.</p>
           </div>
-          <div class="grid__section animated fadeInRight">
+          <div class="grid__section wow animated fadeInRight">
             <i class="fas fa-cogs"></i>
             <h1>APK vervaldatum</h1>
             <p>Voorkom een proces verbaal en laat uw voertuig op tijd keuren. Via de kenteken checker kunt u gemakkelijk de APK vervaldatum achterhalen.</p>
@@ -56,7 +60,7 @@
 
       <div class="portal" id="checked_kenteken"></div>
 
-      <div class="kenteken-container animated pulse" id="js--kenteken-container">
+      <div class="kenteken-container wow animated pulse" id="js--kenteken-container">
         <div class="kentekenHeader" id="#kenteken_check_resultaat">
           <h1><span id="js--merk"></span> <span id="js--handelsbenaming"></span></h1>
           <p class="kentekenHeader__info">Deze <span id="js--voertuigsoort"></span> / <span id="js--inrichting"></span> uit <span id="js--jaar"></span> met kenteken <span id="js--kenteken"></span> kostte nieuw €<span id="js--catalogusprijs"></span>,- waarvan €<span id="js--bruto_bpm"></span>,- aan BPM is betaald. De originele kleur van dit voertuig is <span id="js--eerste_kleur"></span>.</p>
@@ -180,7 +184,7 @@
       </div>
 
       <div class="artikel-container">
-        <div class="artikelGrid animated fadeIn">
+        <div class="artikelGrid wow animated fadeIn">
           <div class="artikelGrid__artikel">
             <img src="img/artikel1.jpg" alt="">
             <h1>Speciale kentekens</h1>
