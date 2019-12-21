@@ -42,12 +42,12 @@
             <h1>Kenteken Checker</h1>
             <p>Zoek niet verder! Via deze online kenteken checker kunt u gemakkelijk meer te weten komen over een specifiek voertuig.</p>
           </div>
-          <div class="grid__section wow animated fadeIn">
+          <div class="grid__section wow animated fadeInLeft">
             <i class="fas fa-money-bill-wave"></i>
             <h1>Catalogusprijs</h1>
             <p>Heeft u een mooie wagen gespot en bent u benieuwd hoe duur deze was? En hoeveel BPM er is betaald? Check het nu via Kenteken Checker.</p>
           </div>
-          <div class="grid__section wow animated fadeInRight">
+          <div class="grid__section wow animated fadeInLeft">
             <i class="fas fa-cogs"></i>
             <h1>APK vervaldatum</h1>
             <p>Voorkom een proces verbaal en laat uw voertuig op tijd keuren. Via de kenteken checker kunt u gemakkelijk de APK vervaldatum achterhalen.</p>
@@ -57,7 +57,7 @@
 
       <div class="portal" id="checked_kenteken"></div>
 
-      <div class="kenteken-container wow animated pulse" id="js--kenteken-container">
+      <div class="kenteken-container wow animated fadeIn" id="js--kenteken-container">
         <div class="kentekenHeader" id="#kenteken_check_resultaat">
           <h1><span id="js--merk"></span> <span id="js--handelsbenaming"></span></h1>
           <p class="kentekenHeader__info">Deze <span id="js--voertuigsoort"></span> / <span id="js--inrichting"></span> uit <span id="js--jaar"></span> met kenteken <span id="js--kenteken"></span> kostte nieuw €<span id="js--catalogusprijs"></span>,- waarvan €<span id="js--bruto_bpm"></span>,- aan BPM is betaald. De originele kleur van dit voertuig is <span id="js--eerste_kleur"></span>.</p>
@@ -181,13 +181,13 @@
       </div>
 
       <div class="artikel-container">
-        <div class="artikelGrid wow animated fadeIn">
-          <div class="artikelGrid__artikel">
+        <div class="artikelGrid">
+          <div class="artikelGrid__artikel wow animated fadeIn">
             <img src="img/artikel1.jpg" alt="">
             <h1>Speciale kentekens</h1>
             <p>AA, CD, BN, GN... Er rijden diverse voertuigen rond met een speciaal kenteken. Dit zijn bijvoorbeeld leden van het Koninklijk Huis of diplomaten. Ook voertuigen van defensie hebben een speciaal kenteken. <a href="#">Lees meer...</a></p>
           </div>
-          <div class="artikelGrid__artikel">
+          <div class="artikelGrid__artikel wow animated fadeIn">
             <img src="img/artikel2.jpg" alt="">
             <h1>Nederlands kenteken</h1>
             <p>Er zijn diverse sidecodes voor Nederlandse kentekens. Ook hebben bepaalde letters in een kenteken een betekenis. Door de jaren heen is het kenteken systeem veranderd. <a href="#">Lees meer...</a></p>
@@ -196,7 +196,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="wow animated fadeIn">
       <p>&copy; 2019 &mdash; <a href="https://github.com/draZer0">Kenteken Checker</a></p>
     </footer>
 
