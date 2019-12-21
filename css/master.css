@@ -73,6 +73,7 @@ html, body {
   background-size: cover;
   background-color: grey;
   height: 50vh;
+  overflow: hidden;
 }
 .kentekenCheck-container .kentekenCheck {
   display: flex;
