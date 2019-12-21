@@ -1,4 +1,7 @@
 window.onload = () => {
+
+  new WOW().init();
+  
   const input = document.getElementById('js--input');
   const button = document.getElementById('js--button');
   const kentekenContainer = document.getElementById('js--kenteken-container');
