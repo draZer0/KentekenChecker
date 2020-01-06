@@ -1,7 +1,11 @@
 window.onload = () => {
 
   new WOW().init();
-  
+
+  const image = document.getElementById('js--image');
+  const imagebutton = document.getElementById('js--imagebutton');
+  const imagetext = document.getElementById('js--imagetext');
+
   const input = document.getElementById('js--input');
   const button = document.getElementById('js--button');
   const kentekenContainer = document.getElementById('js--kenteken-container');
@@ -92,10 +96,29 @@ window.onload = () => {
       });
   }
 
+  const getImage = (image) => {
+    let request = fetch("https://pixabay.com/api/?key=14824179-6d967f7c754b5fe0ea11afd63&q=" + image + "&image_type=photo&pretty=true")
+      .then( (data) => {
+          return data.json();
+      })
+      .then( (response) => {
+        // imagetext.innerHTML = response[0].totalHits;
+        image.src = response.hits[0].largeImageURL[0];
+        imagetext.innerHTML = response.hits[0].likes;
+        // image.src = response.hits[0].largeImageURL;
+      });
+  }
+
   button.onclick = (event) => {
     let kenteken = input.value.toUpperCase();
     getKenteken(kenteken);
     kentekenContainer.style.display = 'block';
+  }
+
+  imagebutton.onclick = (event) => {
+    let image = "yellow";
+    // console.log("klik");
+    getImage(image);
   }
 
   input.onkeyup = (event) => {

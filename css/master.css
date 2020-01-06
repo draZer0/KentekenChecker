@@ -159,6 +159,11 @@ html, body {
   font-weight: bold;
 }
 
+.img-container img {
+  max-width: 250px;
+  margin: 25px;
+}
+
 .grid-container {
   background-color: #fff;
   height: 25vh;
